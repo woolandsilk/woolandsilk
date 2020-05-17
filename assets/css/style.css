@@ -809,30 +809,6 @@ object-position: center;
   transition: all 600ms cubic-bezier(0.645, 0.045, 0.355, 1);
 }
 
-#characters .avatar-item .details {
-  height: 50px;
-  background: #2dc997;
-  position: absolute;
-  width: 100%;
-  height: 50px;
-  bottom: -50px;
-  transition: all 300ms cubic-bezier(0.645, 0.045, 0.355, 1);
-}
-
-#characters .avatar-item .details h4 {
-  font-size: 14px;
-  font-weight: 700;
-  color: #fff;
-  padding: 8px 0 2px 8px;
-  margin: 0;
-}
-
-#characters .avatar-item .details span {
-  display: block;
-  color: #fff;
-  font-size: 13px;
-  padding-left: 8px;
-}
 
 #characters .avatar-item:hover .details {
   bottom: 0;
